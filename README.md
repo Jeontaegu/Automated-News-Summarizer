@@ -3,6 +3,7 @@
 특정 키워드의 최신 네이버 뉴스를 자동으로 검색하고, Google Gemini AI를 통해 핵심만 3줄로 요약하여 지정된 이메일로 전송해 주는 자동화 파이썬 스크립트입니다.
 
 ##스크린샷
+
 <img width="617" height="55" alt="스크린샷 2026-07-25 215759" src="https://github.com/user-attachments/assets/ebc45454-45ce-42b9-996c-cc3d945fc380" />
 <img width="1345" height="490" alt="스크린샷 2026-07-25 215808" src="https://github.com/user-attachments/assets/e7118916-ca96-4628-826f-0b41f75d2b63" />
 
