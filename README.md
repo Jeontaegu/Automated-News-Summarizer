@@ -5,7 +5,7 @@
 ##스크린샷
 
 <img width="617" height="55" alt="스크린샷 2026-07-25 215759" src="https://github.com/user-attachments/assets/ebc45454-45ce-42b9-996c-cc3d945fc380" />
-<img width="1345" height="490" alt="스크린샷 2026-07-25 215808" src="https://github.com/user-attachments/assets/e7118916-ca96-4628-826f-0b41f75d2b63" />
+<img width="1332" height="491" alt="스크린샷 2026-07-25 220000" src="https://github.com/user-attachments/assets/b0c33e37-1009-4261-85b6-3b4fbb70b737" />
 
 
 ## 1. 어떤 문제를 해결하려 했는지 🤔
