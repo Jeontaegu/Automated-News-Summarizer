@@ -3,7 +3,7 @@ import json
 import requests
 from bs4 import BeautifulSoup
 import re
-import google.generativeai as genai
+from google import genai
 
 # ---------------------------------------------------------
 # 1. API 키 세팅
@@ -13,7 +13,7 @@ NAVER_CLIENT_SECRET = ""
 GEMINI_API_KEY = ""
 
 # Gemini API 설정
-genai.configure(api_key=GEMINI_API_KEY)
+enai.configure(api_key=GEMINI_API_KEY)
 
 # 요약 작업에는 빠르고 효율적인 'gemini-3.5-flash' 모델을 사용합니다.
 model = genai.GenerativeModel('gemini-3.5-flash')
