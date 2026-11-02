@@ -16,9 +16,7 @@ GEMINI_API_KEY = ""
 # Gemini API 설정
 client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
 response = client.models.generate_content(
-    model="gemini-3.5-flash",
-    contents=prompt,
-)
+    model="gemini-3.5-flash")
 
 # 요약 작업에는 빠르고 효율적인 'gemini-3.5-flash' 모델을 사용합니다.
 
