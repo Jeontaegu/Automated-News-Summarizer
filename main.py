@@ -13,10 +13,13 @@ NAVER_CLIENT_SECRET = ""
 GEMINI_API_KEY = ""
 
 # Gemini API 설정
-enai.configure(api_key=GEMINI_API_KEY)
+client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
+response = client.models.generate_content(
+    model="gemini-3.5-flash",
+    contents=prompt,
+)
 
 # 요약 작업에는 빠르고 효율적인 'gemini-3.5-flash' 모델을 사용합니다.
-model = genai.GenerativeModel('gemini-3.5-flash')
 
 # ---------------------------------------------------------
 # 2. 기사 본문 스크래핑 함수 (네이버 뉴스 기준)
