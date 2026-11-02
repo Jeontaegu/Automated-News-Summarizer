@@ -3,8 +3,9 @@ import json
 import requests
 from bs4 import BeautifulSoup
 import re
-from google import genai
 import os
+from google import genai
+
 # ---------------------------------------------------------
 # 1. API 키 세팅
 # ---------------------------------------------------------
